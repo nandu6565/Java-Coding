@@ -26,5 +26,6 @@ public class Hcf {
         System.out.print("Enter number n2: ");
         int n2 = sc.nextInt();
         System.out.println("Hcf of number" + n1+ " and "+ n2+ " is "+ hcf(n1,n2));
+        sc.close();
     }
 }
